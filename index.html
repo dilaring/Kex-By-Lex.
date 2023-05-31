@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+      <meta name="description" content="Kex By Lex - cafeneaua pentru a petrece timpul intr-o atmosfera placuta, savurand bauturi si mancaruri delicioase!">
+    <meta name="keywords" content="Kex by Lex, Vulcanesti, cafenea, bucatarie variata, bucate calde, pizza, salate, desert">
+    <meta name="author" content="Boeva Diana">
+    <meta name="author" content="Costeva Anastasia">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="images/x-icon" href="images/logo-kex.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <title>Kex By Lex</title>
+  
+</head>
+
+<body>
+    <div class="wrapper">
+
+
+        <!--header-page-->
+        <header class="header element-animation">
+            <div class="logo">
+                <a href="index.html"><img src="../KEX BY LEX-1111/Images/logo.png" alt=""></a>
+            </div>
+            <navbar>
+                <a href="index.html">Главная</a>
+                <a href="HTML/meniu.html">Меню</a>
+                <a href="HTML/galerie.html">Галерея</a>
+                <a href="HTML/contacte.html">Контакты</a>
+                <span class="basket-quantity">0</span><i class="bi bi-basket" id="myBtn"></i>
+            </navbar>
+            <i id="hamburger" onclick="mobileMenu()" class="material-symbols-outlined">
+                menu
+            </i>
+    
+    
+        </header>
+        <!--header-page-->
+
+   
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Корзина</p>
+                <div class="cart"></div>
+                <div class="cart-bottom">
+                    <div class="cart-summary-item">
+                        <span class="cart-summary-value cart-delivery-price"> Доставка: 35 lei</span>
+                        <span class="cart-summary-value cart-food-price"> Заказ: 0 lei</span>
+                        <span class="cart-summary-value cart-total-price">Общая сумма: 35 lei</span>
+                    </div>
+                    <button class="cart-shop">Купить </button>
+                </div>
+            </div>
+        </div>
+    
+
+        <!--Dunumirea principala-->
+        <main id="index">
+            <div class="principala">
+                <div class='header-title element-animation'>
+                    KEX BY LEX
+                </div>
+                <div class='header-subtitle element-animation'>
+                    Место отдыха для всей семьи <br>
+
+                    <div class='header-bth'>
+                        <a href='#despre-noi' class='header-button'>УЗНАТЬ О КАФЕ</a>
+                    </div>
+                </div>
+
+
+            </div>
+        </main>
+        <!--Denumirea principala-->
+
+        <!--Despre noi-->
+        <div class="despre-noi-container" id="despre-noi">
+
+            <div class="despre-title element-animation">
+                О нас
+            </div>
+            <div class="continut">
+                <div class="despre-info element-animation">
+                    В 2017 году открылась одна из первых кофейнь в городе Вулканешты, которая порадовала
+                    местных жителей, а также туристов. В кафе «Kex by Lex» огромный ассортимент блюд таких как:
+                    поача,
+                    кексы, итальянская пицца, паста, бургеры, которые подарят прилив новых сил.
+                    По предпочтениям гостя профессиональный бариста сварит вкусный, ароматный кофе из
+                    натуральных высококачественных итальянских зерен, а лучшие
+                    повара приготовят изумительную выпечку к напитку
+                </div>
+                <div class="slider element-animation">
+
+                    <div class="slider__line">
+                        <img class="slider__img" src="Images/slider1.jpg">
+                        <img class="slider__img" src="Images/slider2.jpg">
+                        <img class="slider__img" src="Images/slider3.jpg">
+                    </div>
+                    <button class="slider__btn-next">
+                        <img src="Images/next.png">
+                    </button>
+                    <div class="slider__wrapper">
+                        <div class="slider__dot active-dot"></div>
+                        <div class="slider__dot"></div>
+                        <div class="slider__dot"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="counter">
+            <div class="counter__item element-animation">
+                <span class="counterName">Мы работаем</span>
+                <span class="counter__value">0
+                </span><span class="counterName">Лет</span>
+                <span class="counter__label">до 5</span>
+            </div>
+            <div class="counter__item element-animation">
+                <span class="counterName">В нашем ассортименте</span>
+                <span class="counter__value">0</span><span class="counterName">Блюд</span>
+                <span class="counter__label">до 75</span>
+            </div>
+            <div class="counter__item element-animation">
+                <span class="counterName">Нам рады больше</span>
+                <span class="counter__value">0</span><span class="counterName">посетителей </span>
+                <span class="counter__label">до 1000 </span>
+            </div>
+        </div>
+            <div class="base">
+                <div class="logo-base" id="logo">
+                    <img src="img/food1.png" alt="" id="poster">
+                </div>
+
+               
+                <section>
+                    <div class="denumirea element-animation"> ТОП ПРОДАЖ: </div>
+                    <div class="content element-animation">
+                        <h1 id="title">Ассорти-Фри</h1>
+                        <p id="text">Ассорти из картофеля - это сочное и вкусное сочетание картошки фри, картошки
+                            по-деревенски и картофельных шариков. Ассорти из картофеля - отличное блюдо, которое
+                            подойдет как для перекуса в компании.</p>
+                        <div class="price_order">
+                            <h2 id="price_cont">95 лей</h2>
+                            <a href="HTML/meniu.html">В меню</a>
+                        </div>
+                    </div>
+
+                    <div class="cards">
+                        <div class="card" id="1">
+                            <img src="img/food2.png" alt="" class="dis">
+
+                            <h4>95 лей</h4>
+                            <h5>Ассорти-Фри</h5>
+                            <div class="rate_cart">
+
+                                
+                            </div>
+                        </div>
+
+                        <div class="card" id="2">
+                            <img src="img/food3.png" alt="" class="dis">
+                            <h4>55 лей</h4>
+                            <h5>Красный борщ</h5>
+                            <div class="rate_cart">
+
+                                
+                            </div>
+                        </div>
+                        <div class="card" id="3">
+                            <img src="img/food4.png" alt="" class="dis">
+
+                            <h4>55 лей</h4>
+                            <h5>Пельмени куриные</h5>
+
+                            <div class="rate_cart">
+
+                                
+                            </div>
+                        </div>
+                        <div class="card" id="4">
+                            <img src="img/food5.png" alt="" class="dis">
+
+                            <h4>38 лей </h4>
+                            <h5>Сэндвич</h5>
+
+                            <div class="rate_cart">
+
+                                
+                            </div>
+                        </div>
+                        <div class="card" id="5">
+                            <img src="img/food6.png" alt="" class="dis">
+
+                            <h4>145 лей</h4>
+                            <h5>Пицца Италия</h5>
+
+                            <div class="rate_cart">
+
+                                
+                            </div>
+                        </div>
+                        <div class="card" id="6">
+                            <img src="img/food7.png" alt="" class="dis">
+
+                            <h4>55 лей</h4>
+                            <h5>Суп зама</h5>
+
+                            <div class="rate_cart">
+
+                                
+                            </div>
+                        </div>
+                        <div class="card" id="7">
+                            <img src="img/food8.png" alt="" class="dis">
+
+                            <h4>25 лей</h4>
+                            <h5>Круассан</h5>
+
+                            <div class="rate_cart">
+
+                                
+                            </div>
+                        </div>
+                        <div class="card" id="8">
+
+                            <a class="ultima" href="../HTML/meniu">Перейти в меню</a>
+                        </div>
+                    </div>
+                    <div class="social">
+                        <div class="btns">
+                            <i class="bi bi-caret-left-fill"></i>
+                            <i class="bi bi-caret-right-fill"></i>
+                        </div>
+
+                    </div>
+                </section>
+            </div>
+
+    </div>
+
+    
+
+    <!--Footer-->
+    <footer class="footer-down">
+        <div class="footer-item">
+            <a href="tel:+37362174017" class="footer-item-1"> <span class="material-symbols-outlined">
+                    phone_in_talk </span><span class="text"> 0-62-174-017 </span> </a>
+            <a href="index.html"><img src="Images/logo.png" alt="" class="footer-logo"></a>
+            <a href="https://goo.gl/maps/8pNuvoayHprPX7bQ7" class="footer-item-1" target="_blank"> <span
+                    class="material-symbols-outlined">
+                    map
+                </span>
+                <span class="text"> г. Вулканешты</span></a>
+        </div>
+        <div class="marquee">Acest website a fost realizat în cadrul competiției ”Tekwill Junior Ambassadors” organizată de
+            proiectul ”Tekwill în Fiecare Școală” și nu reflectă neapărat opinia proiectului.</div>
+    </footer>
+    <script src="JS/animatia.js"></script>
+    <script src="JS/popup.js"></script>
+    <script src="JS/slider.js"></script>
+    <script src="JS/mobile.js"></script>
+</body>
+
+</html>
